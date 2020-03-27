@@ -27,7 +27,7 @@ into your Windows command line (I am using Windows and this doesn't constitute a
 
 ## Contributing
 
-As long as I'm working on this I will not be allowing contributors, since I want to figure the details out for myself. After I finish, I guess I'll allow contributors, although I don't really expect there to be any.
+Up to a certain point in my work I discourage contributions since I want to figure the details out for myself (after all, it is a personal learning project). After I finish, I guess I'll allow contributors, although I don't really expect there to be any.
 
 ## Authors
 
