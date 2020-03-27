@@ -3,6 +3,13 @@ from itertools import combinations, chain
 
 
 """
+Updated parts of the algorithm after running added test cases, which were externally verified with Xanadu's thewalrus
+library. Next commit will hopefully include an organized testing script that integrates networkx or some
+library of graphs/adjacency matrices and validates my function's results on these inputs with the Xanadu function.
+"""
+
+
+"""
 So you were working on this last on 3/26/2020. You were not doing too well.
 The algorithm came from https://arxiv.org/pdf/1107.4466.pdf, pages 5 and 6.
 You were stuck on how to implement the squeeze operation, since it is defined recursively
