@@ -3,9 +3,9 @@ from itertools import combinations, chain
 
 
 """
-Updated parts of the algorithm after running added test cases, which were externally verified with Xanadu's thewalrus
-library. Next commit will hopefully include an organized testing script that integrates networkx or some
-library of graphs/adjacency matrices and validates my function's results on these inputs with the Xanadu function.
+Created an automated test file. Very clearly I did something wrong in implementing
+the algorithm, but I also had a fair amount of trouble understanding the notation
+at some points, so hopefully it stems from that and the fix is easy.
 """
 
 
