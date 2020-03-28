@@ -25,6 +25,8 @@ pip install numpy
 
 into your Windows command line (I am using Windows and this doesn't constitute anything major in my research so I am hoping I won't have to write instructions for other systems, since I don't know what the differences are).
 
+The automated test file makes use of some other libraries, namely networkx, matplotlib, unittest, and thewalrus, but these are not necessary unless you are interested in implementing and testing your own algorithm. They can be installed the same way as numpy.
+
 ## Contributing
 
 Up to a certain point in my work I discourage contributions since I want to figure the details out for myself (after all, it is a personal learning project). After I finish, I guess I'll allow contributors, although I don't really expect there to be any.
