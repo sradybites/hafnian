@@ -41,5 +41,7 @@ I don't understand licensing yet but I'll be sure to upgrade this section once I
 
 ## Acknowledgments
 
+* https://en.wikipedia.org/wiki/Hafnian
 * The paper I referenced in the paragraph above: https://arxiv.org/pdf/1107.4466.pdf
 * Xanadu's definitive library for GBS: https://the-walrus.readthedocs.io/en/latest/
+* https://codegolf.stackexchange.com/questions/157049/calculate-the-hafnian-as-quickly-as-possible
