@@ -1,12 +1,7 @@
+from math import factorial
+
 import numpy as np
-from itertools import combinations, chain
-
-
-"""
-Created an automated test file. Very clearly I did something wrong in implementing
-the algorithm, but I also had a fair amount of trouble understanding the notation
-at some points, so hopefully it stems from that and the fix is easy.
-"""
+from itertools import combinations, chain, permutations
 
 
 """
@@ -23,7 +18,7 @@ When I eventually get around to writing that, I will use it again.
 
 def hafnian(m):
     """
-    Computes the hafnian of a symmetric matrix
+    Computes the hafnian of a symmetric matrix using the first Bjorklund algorithm
     :param m: a numpy array representing a symmetric matrix
     :return: the hafnian of m
     """
@@ -37,6 +32,22 @@ def hafnian(m):
         b = squeeze_op(b, i)
         h = h*squeeze_factor
     return h
+
+
+def slow_hafnian(m):
+    """
+    Computes the hafnian using the slowest possible method
+    :param m: a two-dimensional square numpy array
+    :return: the hafnian of m
+    """
+    res_sum = 0
+    n = m.shape[0] // 2
+    for sigma in permutations(range(2*n)):
+        product = 1
+        for j in range(n):
+            product = product*(m[sigma[2*j], sigma[2*j+1]])
+        res_sum = res_sum + product
+    return res_sum / (factorial(n) * 2 ** n)
 
 
 def squeeze_op(curr, i):
@@ -61,4 +72,4 @@ def squeeze_op(curr, i):
 def powerset(iterable):
     """powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"""
     s = list(iterable)
-    return chain.from_iterable(combinations(s,r) for r in range(len(s)+1))
+    return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
