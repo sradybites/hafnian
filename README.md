@@ -1,10 +1,10 @@
 # Hafnian in Python
 
-This project relates to my work in the McMahon Lab in the School of Applied and Engineering Physics at Cornell University. As part of my research on Gaussian Boson Sampling (GBS), I would like to further understand the hafnian and its (classical) computation, so I created this project to code algorithm(s) for its computation in Python. Currently, I am implementing the first algorithm presented in the paper listed in the Acknowledgments section. I plan on coding both the algorithms presented in the aforementioned paper, but I may not find it necessary after having done the first one. By the end of this project, I hope to better understand the hafnian, its classical computation, and how the complexity scales as graphs/matrices grow in size.
+This project relates to my work in the McMahon Lab in the School of Applied and Engineering Physics at Cornell University. As part of my research on Gaussian Boson Sampling (GBS), I would like to further understand the hafnian and its (classical) computation, so I created this project to code algorithm(s) for its computation in Python. By the end of this project, I hope to better understand the hafnian, its classical computation, and how the complexity scales as graphs/matrices grow in size.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -29,15 +29,11 @@ The automated test file makes use of some other libraries, namely networkx, matp
 
 ## Contributing
 
-Up to a certain point in my work I discourage contributions since I want to figure the details out for myself (after all, it is a personal learning project). After I finish, I guess I'll allow contributors, although I don't really expect there to be any.
+Feel free to contribute! I am not doing anything revolutionary or groundbreaking, so if you stumble upon this and want to contribute, just go for it.
 
 ## Authors
 
 * **Brady Sites** - *Initial work* - [sradybites](https://github.com/sradybites)
-
-## License
-
-I don't understand licensing yet but I'll be sure to upgrade this section once I do!
 
 ## Acknowledgments
 

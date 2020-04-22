@@ -18,6 +18,7 @@ When I eventually get around to writing that, I will use it again.
 
 def hafnian(m):
     """
+    TODO: FIX THIS!
     Computes the hafnian of a symmetric matrix using the first Bjorklund algorithm
     :param m: a numpy array representing a symmetric matrix
     :return: the hafnian of m
