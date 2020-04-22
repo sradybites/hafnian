@@ -1,6 +1,6 @@
 # Hafnian in Python
 
-This project relates to my work in the McMahon Lab in the School of Applied and Engineering Physics at Cornell University. As part of my research on Gaussian Boson Sampling (GBS), I would like to further understand the hafnian and its (classical) computation, so I created this project to code algorithm(s) for its computation in Python. By the end of this project, I hope to better understand the hafnian, its classical computation, and how the complexity scales as graphs/matrices grow in size.
+This project relates to my work in the McMahon Lab in the School of Applied and Engineering Physics at Cornell University. As part of my research on Gaussian Boson Sampling (GBS), I would like to further understand the hafnian and its (classical) computation, so I created this project to code algorithm(s) for its computation in Python.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To get your dev environment working for this project, all you need are compatibl
 pip install numpy
 ```
 
-into your Windows command line (I am using Windows and this doesn't constitute anything major in my research so I am hoping I won't have to write instructions for other systems, since I don't know what the differences are).
+into your command line.
 
 The automated test file makes use of some other libraries, namely networkx, matplotlib, unittest, and thewalrus, but these are not necessary unless you are interested in implementing and testing your own algorithm. They can be installed the same way as numpy.
 
