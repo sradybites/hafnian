@@ -2,10 +2,6 @@
 
 This project relates to my work in the McMahon Lab in the School of Applied and Engineering Physics at Cornell University. As part of my research on Gaussian Boson Sampling (GBS), I would like to further understand the hafnian and its (classical) computation, so I created this project to code algorithm(s) for its computation in Python.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 This project is written in Python, and I make heavy use of numpy arrays, as seen below:
@@ -26,14 +22,6 @@ pip install numpy
 into your command line.
 
 The automated test file makes use of some other libraries, namely networkx, matplotlib, unittest, and thewalrus, but these are not necessary unless you are interested in implementing and testing your own algorithm. They can be installed the same way as numpy.
-
-## Contributing
-
-Feel free to contribute! I am not doing anything revolutionary or groundbreaking, so if you stumble upon this and want to contribute, just go for it.
-
-## Authors
-
-* **Brady Sites** - *Initial work* - [sradybites](https://github.com/sradybites)
 
 ## Acknowledgments
 
